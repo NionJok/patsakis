@@ -17,7 +17,7 @@ for i in range (0,1000):
             paiktes[j][k]=random.choice(values)
     while flag==False:
         bingo=[]
-        geniko=geniko +80
+        geniko=geniko + 5
         for j in range(0,5):
             bingo.append(random.choice(values))
         for j in range(0,100):
