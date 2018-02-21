@@ -1,6 +1,6 @@
 import random
 
-epitixies=0
+
 values =list(range(1,81))
 bingo=[]
 geniko=0
@@ -27,7 +27,7 @@ for i in range (0,1000):
                     if paiktes[j][k]==bingo[z]:
                         metrhths=metrhths+1
             if metrhths==5:
-                epitixies=epitixies +1
+                
                 flag=True
                 
 mesos=(geniko/1000)
